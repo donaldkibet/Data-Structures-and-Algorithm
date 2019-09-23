@@ -16,6 +16,15 @@ namespace DataStructures
                 Console.Write($" { number }");
             }
             Console.WriteLine("");
+            Console.WriteLine("Insertion sort the following numbers 10,5,6,9,14,2");
+            int[] insertionSortArray = { 10, 5, 6, 9, 14, 2 };
+            var iSortArray = new InsertionSort();
+            iSortArray.Sort(insertionSortArray);
+            foreach (int number in insertionSortArray)
+            {
+                Console.Write($" { number }");
+            }
+            Console.WriteLine("");
         }
     }
 }

@@ -13,3 +13,4 @@ Implemented using C# 7 and dotnet core platform.
 ## Sorting Algorithms
 
 1. Bubble Sort
+2. Insertion Sort
