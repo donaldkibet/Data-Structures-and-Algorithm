@@ -4,7 +4,7 @@ namespace DataStructures.Algorithms
     {
         int tempNumber;
         bool isSorted;
-        public void SortArray(int[] numbers)
+        public void Sort(int[] numbers)
         {
             if (numbers.Length > 0)
             {
