@@ -24,6 +24,15 @@ namespace DataStructures
             {
                 Console.Write($" { number } ");
             }
-        }
+            Console.WriteLine("\n ============================= \n");
+            Console.WriteLine("Selection sort (10,5,6,9,14,2)");
+            int[] selectSortArray = { 10, 5, 6, 9, 14, 2 };
+            var sSortArray = new InsertionSort();
+            sSortArray.Sort(selectSortArray);
+            foreach (int number in selectSortArray)
+            {
+                Console.Write($" { number } ");
+            }
+            Console.Write("\n");        }
     }
 }
